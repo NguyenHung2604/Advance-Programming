@@ -1,19 +1,37 @@
-# Tệp của IDE
-.vscode/
-*.vscode/
-*.idea/
-*.xcodeproj/
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-# Tệp hệ thống (macOS, Windows)
-.DS_Store
-Thumbs.db
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
 
-# Tệp cấu hình Git
-.gitmodules
-
-# Các tệp nhật ký hoặc báo lỗi
+# Logs and databases #
+######################
 *.log
+*.sql
+*.sqlite
 
-# Các tệp tài liệu
-*.bak
-*.swp
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
