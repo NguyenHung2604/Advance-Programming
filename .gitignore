@@ -1,0 +1,19 @@
+# Tệp của IDE
+.vscode/
+*.vscode/
+*.idea/
+*.xcodeproj/
+
+# Tệp hệ thống (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Tệp cấu hình Git
+.gitmodules
+
+# Các tệp nhật ký hoặc báo lỗi
+*.log
+
+# Các tệp tài liệu
+*.bak
+*.swp
